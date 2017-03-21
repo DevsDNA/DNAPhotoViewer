@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageViewerFooterView">
+            <connections>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X66-Jx-MT3">
+                    <rect key="frame" x="15" y="0.0" width="345" height="1"/>
+                    <color key="backgroundColor" red="0.85882352939999995" green="0.8862745098" blue="0.8980392157" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="jq3-bS-E7r"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIS IS THE FOOTER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuF-bl-jJC">
+                    <rect key="frame" x="119" y="17.5" width="137" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="X66-Jx-MT3" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="15" id="NLd-6F-Hvs"/>
+                <constraint firstItem="LuF-bl-jJC" firstAttribute="centerX" secondItem="2" secondAttribute="centerX" id="cqh-Uf-6Ro"/>
+                <constraint firstItem="X66-Jx-MT3" firstAttribute="top" secondItem="2" secondAttribute="top" id="fx6-7C-HFK"/>
+                <constraint firstItem="LuF-bl-jJC" firstAttribute="centerY" secondItem="2" secondAttribute="centerY" id="kPI-mv-8ei"/>
+                <constraint firstAttribute="trailing" secondItem="X66-Jx-MT3" secondAttribute="trailing" constant="15" id="nk7-Nf-ccx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="93.5" y="351.5"/>
+        </view>
+    </objects>
+</document>
